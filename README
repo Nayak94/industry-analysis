@@ -1,6 +1,15 @@
-# This notebook will be focusing on timeseries forecasting using gradient boosting decision tree regression algorithms. Specifically, two packages, one from sklearn and other one from LightGBM are used. 
+Creator : Karan Nayak
 
-*Name :- Karan Nayak*
+--> Regarding the dataset :- 
+
+The "data.csv" used in this project is the result of data wrangling and cleaning done on three different spreadsheets collected from https://www.statcan.gc.ca/eng/start.
+The three spreadsheets depict monthly data on employment, hourly wages and GDP of an industrial sector grouped monthly. 
+
+--> Regarding the ML algorithm :- 
+
+This notebook will be focusing on timeseries forecasting using gradient boosting decision tree regression algorithms. Specifically, two packages, 
+one from sklearn and other one from LightGBM are used. 
+
 
 ## Some general information that might be useful before proceeding ahead:- 
 * The highest computation time taken by a cell in this notebook is :- 1m 30s, which does the hyperparameter search. 
