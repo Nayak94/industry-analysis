@@ -1,0 +1,17 @@
+# This notebook will be focusing on timeseries forecasting using gradient boosting decision tree regression algorithms. Specifically, two packages, one from sklearn and other one from LightGBM are used. 
+
+*Name :- Karan Nayak*
+
+## Some general information that might be useful before proceeding ahead:- 
+* The highest computation time taken by a cell in this notebook is :- 1m 30s, which does the hyperparameter search. 
+* This was measured on a 4 core CPU 16GB RAM.
+* Keeping above conditions in mind, there is no need to use GPUs for running this notebook.
+* Libraries used are :- 
+    * Sklearn
+    * Pandas
+    * Numpy
+    * Seaborn
+    * Matplotlib
+    * LightGBM
+        * To install directly :- *pip3 install lightgbm*
+        * To install in conda env :- *conda install -c conda-forge lightgbm*
